@@ -1,0 +1,29 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="motivationstyle.css">
+</head>
+<body>
+<div class="centered-container">
+	<img id="trophy" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSAU3GizrR_JW_9VruFyFSLhykz7J9TFu2OmA1q6ok1dW-BFrL8MQ" alt ="Gold trophy with number 1 on it"/>
+</div>
+<h3>How was your day?</h3>
+<form>
+<input type="radio" name="day" value="good"> Good<br>
+<input type="radio" name="day" value="stressful"> Stressful<br>
+</form>
+<button onclick="redirect()">Submit</button>
+
+<script>
+function redirect() {
+var x = document.getElementsByName("day");
+for (var i = 0; i < x.length; i++) {
+	if(x[i].checked) {
+	alert(x[i].value);
+	break;
+	}
+}
+window.location = "http://www.google.com"; 
+}
+</script>	
+</body>
+</html>

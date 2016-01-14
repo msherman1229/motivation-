@@ -1,0 +1,13 @@
+body {
+border: ridge 20px #DAA520;
+z-index: 2; 
+}
+.centered-container {
+height: 100%; 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+}
+#trophy {
+margin: 0;
+}
