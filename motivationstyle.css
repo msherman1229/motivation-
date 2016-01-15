@@ -11,3 +11,9 @@ justify-content: center;
 #trophy {
 margin: 0;
 }
+#name-head {
+text-align: center; 
+margin-top: 20px; 
+font-size: 58px; 
+font-family: sans-serif; 
+}
