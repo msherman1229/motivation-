@@ -18,3 +18,19 @@ function motivate(str)
 	document.getElementById("m-paragraph").style.border = "double 10px black"; 
 	document.getElementById("m-paragraph").style.padding = "10px";  
 }
+
+function confetti()
+{
+	var elem = document.getElementById("confetti");
+	var pos = 0;
+	var id = setInterval(frame, 5); 
+	function frame() {
+		if (pos == 350) {
+ 			clearInterval(id); 
+		}
+		else {
+			pos++;
+			elem.style.top = pos + "px"; 
+		}
+	}
+} 

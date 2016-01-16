@@ -7,7 +7,8 @@ position: relative;
 width: 50%;
 margin-left: 27%; 
 margin-top: 12%;
-margin-bottom: 2%;   
+margin-bottom: 2%;
+z-index: 2;
 }
 #trophy {
 margin: 0;
@@ -16,7 +17,7 @@ margin: 0;
 text-align: center; 
 margin-top: 20px; 
 font-size: 58px; 
-font-family: sans-serif; 
+font-family: sans-serif;
 }
 #m-paragraph {
 text-align: center; 
@@ -25,8 +26,27 @@ font-family: sans-serif;
 margin-top: 110px; 
 background-color: #DAA520; 
 margin-left: 146px; 
-margin-right: 146px;   
+margin-right: 146px;
 }
 .buttons {
-margin-right: 15px;
+margin-right: 15px; 
+}
+#a-container {
+width: 400px;
+height: 400px; 
+position: relative;
+z-index: 1; 
+}
+#confetti {
+width: 50px;
+height: 50px;
+position: absolute; 
+background: red; 
+z-index: 1; 
+}
+#main-body {
+position: relative;
+z-index: 2;
+top: -400px;
+margin-bottom: -400px;  
 }
