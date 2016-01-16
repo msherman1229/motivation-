@@ -4,8 +4,8 @@ z-index: 2;
 }
 .centered-container {
 position: relative; 
-width: 50%;
-margin-left: 27%; 
+width: 54%;
+margin-left: 24%; 
 margin-top: 12%;
 margin-bottom: 2%;
 z-index: 2;
@@ -48,4 +48,8 @@ position: relative;
 z-index: 2;
 top: -400px;
 margin-bottom: -400px;  
+}
+#music {
+position: relative;
+left: 36%;
 }
