@@ -17,3 +17,12 @@ margin-top: 20px;
 font-size: 58px; 
 font-family: sans-serif; 
 }
+#m-paragraph {
+text-align: center; 
+font-size: 20px;
+font-family: sans-serif;
+margin-top: 110px; 
+background-color: #DAA520; 
+margin-left: 146px; 
+margin-right: 146px; 
+}
