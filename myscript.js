@@ -33,4 +33,9 @@ function confetti()
 			elem.style.top = pos + "px"; 
 		}
 	}
+}
+
+function changeColor(str)
+{
+	document.getElementById("m-paragraph").style.backgroundColor = str; 
 } 
