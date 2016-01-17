@@ -30,21 +30,41 @@ function confetti()
 	var elem3 = document.getElementById("confetti3"); 
 	var pos3 = 60; 
 	var elem4 = document.getElementById("confetti4"); 
-	var pos4 = 0;  
-	var id = setInterval(frame, 5); 
+	var pos4 = 0;
+	var elem5 = document.getElementById("confetti5");
+	var pos5 = 90;
+	var elem6 = document.getElementById("confetti6");
+	var pos6 = 100;
+	var elem7 = document.getElementById("confetti7");
+	var pos7 = 65; 
+	var elem8 = document.getElementById("confetti8");
+	var pos8 = 20;
+	var elem9 = document.getElementById("confetti9");
+	var pos9 = 10;   
+	var id = setInterval(frame, 3); 
 	elem.style.backgroundColor = "red";
 	elem1.style.backgroundColor = "blue";
 	elem2.style.backgroundColor = "yellow";
-	elem3.style.backgroundColor = "green";
-	elem4.style.backgroundColor = "purple"; 
+	elem3.style.backgroundColor = "red";
+	elem4.style.backgroundColor = "blue";
+	elem5.style.backgroundColor = "yellow";
+	elem6.style.backgroundColor = "red";
+	elem7.style.backgroundColor = "blue";
+	elem8.style.backgroundColor = "yellow";
+	elem9.style.backgroundColor = "red"; 
 	function frame() {
-		if (pos = 450) {
+		if (pos == 450) {
  			clearInterval(id);
 			elem.style.backgroundColor = "white";
 			elem1.style.backgroundColor = "white";
 			elem2.style.backgroundColor = "white";
 			elem3.style.backgroundColor = "white";
-			elem4.style.backgroundColor = "white"; 
+			elem4.style.backgroundColor = "white";
+			elem5.style.backgroundColor = "white";
+			elem6.style.backgroundColor = "white";
+			elem7.style.backgroundColor = "white";
+			elem8.style.backgroundColor = "white";
+			elem9.style.backgroundColor = "white"; 
 		}
 		else {
 			pos++;
@@ -57,6 +77,16 @@ function confetti()
 			elem3.style.top = pos3 + "px";
 			pos4++; 
 			elem4.style.top = pos4 + "px";   
+			pos5++;
+			elem5.style.top = pos5 + "px";
+			pos6++;
+			elem6.style.top = pos6 + "px";
+			pos7++;
+			elem7.style.top = pos7 + "px";
+			pos8++;
+			elem8.style.top = pos8 + "px";
+			pos9++;
+			elem9.style.top = pos9 + "px";
 		}
 	}
 }

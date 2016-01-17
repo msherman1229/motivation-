@@ -75,6 +75,45 @@ position: absolute;
 z-index: 1; 
 left: 480px; 
 }
+#confetti5 {
+width: 10px;
+height: 35px;
+position: absolute; 
+z-index: 1; 
+left: 900px;
+top: 90px; 
+}
+#confetti6 {
+width: 10px;
+height: 35px;
+position: absolute;
+z-index: 1; 
+left: 400px;
+top: 100px;
+}
+#confetti7 {
+width: 10px;
+height: 35px;
+position: absolute;
+z-index: 1; 
+left: 150px;
+top: 65px;
+}
+#confetti8 {
+width: 10px;
+height: 35px;
+position: absolute;
+z-index: 1; 
+left: 750px;
+top: 20px;
+}
+#confetti9 {
+width: 10px;
+height: 35px;
+position: absolute; 
+left: 200px;
+top: 10px;
+}
 #main-body {
 position: relative;
 z-index: 2;
