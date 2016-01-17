@@ -37,11 +37,43 @@ position: relative;
 z-index: 1; 
 }
 #confetti {
-width: 50px;
-height: 50px;
+width: 10px;
+height: 35px;
+position: absolute;  
+z-index: 1;
+left: 300px;
+top: 80px;  
+}
+#confetti1 {
+width: 10px;
+height: 35px; 
 position: absolute; 
-background: red; 
 z-index: 1; 
+left: 600px; 
+top: 16px; 
+}
+#confetti2 {
+width: 10px;
+height: 35px;
+position: absolute;
+z-index: 1;
+left: 490px; 
+top: 111px; 
+}
+#confetti3 {
+width: 10px;
+height: 35px;
+position: absolute; 
+z-index: 1; 
+left: 750px;
+top: 60px; 
+}
+#confetti4 {
+width: 10px;
+height: 35px;
+position: absolute;
+z-index: 1; 
+left: 480px; 
 }
 #main-body {
 position: relative;
