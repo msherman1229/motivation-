@@ -3,7 +3,7 @@ function motivate(str)
 	document.getElementById("name-head").innerHTML = str; 
 	var names = str.split(" ");
 	var firstName = names[0]; 
-	var option1 = firstName + ",<br>If you hear a voice within you say \"you cannot paint,\" then by all means paint, and that voice will be silenced.<br>Your friend and constant supporter,<br>Vincent Van Gogh"; 
+	var option1 = "<b>" + firstName + "<b>,<br>If you hear a voice within you say \"you cannot paint,\" then by all means paint, and that voice will be silenced.<br>Your friend and constant supporter,<br>Vincent Van Gogh"; 
 	var option2 = "Dear " + firstName + ",<br>" + "Success consists of going from failure to failure without loss of enthusiasm.<br>" + "Love,<br>Winston Churchill"; 
 	var option3 = firstName + ",<br> Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma, which is living the result of other people's thinking. Don't let the noise of other's opinion drowned your own inner voice. And most important, " + firstName + ", have the courage to follow your heart and intuition, they somehow already know what you truly want to become. Everything else is secondary.<br>Keep your head up " + firstName + ",<br>Steve Jobs"; 
 	var option4 = firstName + ",<br>When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us.<br>Wishing you the best,<br>Alexander Graham Bell";
@@ -54,20 +54,19 @@ function confetti()
 	elem6.style.backgroundColor = "red";
 	elem7.style.backgroundColor = "blue";
 	elem8.style.backgroundColor = "yellow";
-	elem9.style.backgroundColor = "red"; 
+	elem9.style.backgroundColor = "red";
+	elem.style.boxShadow = "5px 5px 5px";
+	elem1.style.boxShadow = "5px 5px 5px";
+	elem2.style.boxShadow = "5px 5px 5px";
+	elem3.style.boxShadow = "5px 5px 5px";
+	elem4.style.boxShadow = "5px 5px 5px";
+	elem5.style.boxShadow = "5px 5px 5px";
+	elem6.style.boxShadow = "5px 5px 5px";
+	elem7.style.boxShadow = "5px 5px 5px";
+	elem8.style.boxShadow = "5px 5px 5px";
+	elem9.style.boxShadow = "5px 5px 5px"; 
 	function frame() {
 		if (pos == 425) {
- 			/*clearInterval(id);
-			elem.style.backgroundColor = "white";
-			elem1.style.backgroundColor = "white";
-			elem2.style.backgroundColor = "white";
-			elem3.style.backgroundColor = "white";
-			elem4.style.backgroundColor = "white";
-			elem5.style.backgroundColor = "white";
-			elem6.style.backgroundColor = "white";
-			elem7.style.backgroundColor = "white";
-			elem8.style.backgroundColor = "white";
-			elem9.style.backgroundColor = "white";*/
 			pos = 80; 
 			pos1 = 16; 
 			pos2 = 111; 
@@ -104,24 +103,6 @@ function confetti()
 	}
 }
 
-/*function confetti()
-{
-	confetti0(); 
-	function confetti0() {
-		var elem = document.getElementById("confetti"); 
-		var pos = 80;   
-		var id = setInterval(frame, 5); 
-		function frame() {
-			if (pos == 350) {
-				clearInterval(id); 
-			}
-			else {
-				pos++; 
-				elem.style.top = pos + "px"; 
-			}
-		}
-	}
-}*/
 
 function changeColor(str)
 {
