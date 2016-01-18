@@ -21,6 +21,9 @@ function motivate(str)
 
 function confetti()
 {
+	document.getElementById("red-balloon").src = "red.png";
+        document.getElementById("blue-balloon").src = "blue.png";
+        document.getElementById("yellow-balloon").src = "yellow.png";
 	var elem = document.getElementById("confetti");
 	var pos = 80; 
 	var elem1 = document.getElementById("confetti1");
@@ -53,8 +56,8 @@ function confetti()
 	elem8.style.backgroundColor = "yellow";
 	elem9.style.backgroundColor = "red"; 
 	function frame() {
-		if (pos == 450) {
- 			clearInterval(id);
+		if (pos == 425) {
+ 			/*clearInterval(id);
 			elem.style.backgroundColor = "white";
 			elem1.style.backgroundColor = "white";
 			elem2.style.backgroundColor = "white";
@@ -64,9 +67,19 @@ function confetti()
 			elem6.style.backgroundColor = "white";
 			elem7.style.backgroundColor = "white";
 			elem8.style.backgroundColor = "white";
-			elem9.style.backgroundColor = "white"; 
+			elem9.style.backgroundColor = "white";*/
+			pos = 80; 
+			pos1 = 16; 
+			pos2 = 111; 
+			pos3 = 60; 
+			pos4 = 0; 
+			pos5 = 90; 
+			pos6 = 100; 
+			pos7 = 65; 
+			pos8 = 20;
+			pos9 = 10;  
 		}
-		else {
+		else if (pos != 425) {
 			pos++;
 			elem.style.top = pos + "px";
 			pos1++;
