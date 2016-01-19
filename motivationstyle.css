@@ -3,11 +3,10 @@ border: ridge 20px #DAA520;
 z-index: 2; 
 }
 .centered-container {
-position: relative; 
-width: 54%;
-margin-left: 24%; 
-margin-top: 12%;
-margin-bottom: 2%;
+display: flex;
+align-items: center; 
+justify-content: center; 
+margin-bottom: 10px; 
 z-index: 2;
 }
 #trophy {
@@ -41,7 +40,7 @@ width: 10px;
 height: 35px;
 position: absolute;  
 z-index: 1;
-left: 300px;
+left: 28%;
 top: 80px;   
 }
 #confetti1 {
@@ -49,7 +48,7 @@ width: 10px;
 height: 35px; 
 position: absolute; 
 z-index: 1; 
-left: 600px; 
+left: 56%; 
 top: 16px; 
 }
 #confetti2 {
@@ -57,7 +56,7 @@ width: 10px;
 height: 35px;
 position: absolute;
 z-index: 1;
-left: 550px; 
+left: 52%; 
 top: 111px; 
 }
 #confetti3 {
@@ -65,7 +64,7 @@ width: 10px;
 height: 35px;
 position: absolute; 
 z-index: 1; 
-left: 750px;
+left: 71%;
 top: 60px; 
 }
 #confetti4 {
@@ -73,14 +72,14 @@ width: 10px;
 height: 35px;
 position: absolute;
 z-index: 1; 
-left: 480px; 
+left: 45%; 
 }
 #confetti5 {
 width: 10px;
 height: 35px;
 position: absolute; 
 z-index: 1; 
-left: 900px;
+left: 85%;
 top: 90px; 
 }
 #confetti6 {
@@ -88,7 +87,7 @@ width: 10px;
 height: 35px;
 position: absolute;
 z-index: 1; 
-left: 400px;
+left: 38%;
 top: 100px;
 }
 #confetti7 {
@@ -96,7 +95,7 @@ width: 10px;
 height: 35px;
 position: absolute;
 z-index: 1; 
-left: 150px;
+left: 14%;
 top: 65px; 
 }
 #confetti8 {
@@ -104,29 +103,29 @@ width: 10px;
 height: 35px;
 position: absolute;
 z-index: 1; 
-left: 250px;
+left: 23%;
 top: 20px; 
 }
 #confetti9 {
 width: 10px;
 height: 35px;
 position: absolute; 
-left: 200px;
+left: 19%;
 top: 10px; 
 }
 #red-balloon {
 position: absolute;
-left: 800px;
+left: 75%;
 top: 20px;
 }
 #yellow-balloon {
 position: absolute;
-left: 300px;
+left: 28%;
 top: 30px;
 }
 #blue-balloon {
 position: absolute;
-left: 100px;
+left: 10%;
 top: 10px; 
 }
 #main-body {
